@@ -28,6 +28,11 @@ header{
   box-sizing: border-box;
 }
 
+.bolder{
+  font-weight: bold;
+
+}
+
 ol {
   list-style: none;
 }
@@ -55,6 +60,13 @@ ol.index>a {
 .d-none {
   display: none;
   cursor: pointer;
+}
+
+.d-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .c-pointer {
