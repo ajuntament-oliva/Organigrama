@@ -1,0 +1,935 @@
+{
+    "Ajuntament": {
+        "Activitats": {
+            "id": "Activitats",
+            "Cap": {
+                "nom": "Serafín Moreno",
+                "carrec": "Cap d'activitats",
+                "correu": "smoreno@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Andrea Climent",
+                        "carrec": "",
+                        "correu": "acliment@oliva.es"
+                    },
+                    {
+                        "nom": "Joan Borrull",
+                        "carrec": "Inspector Activitats i Tributs",
+                        "correu": ""
+                    },
+                    {
+                        "nom": " Rosa Devesa ",
+                        "carrec": "",
+                        "correu": "rmdevesa@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Adl": {
+            "id": "Adl",
+            "Cap": {
+                "nom": "Mónica Maurí",
+                "carrec": "Cap ADL",
+                "correu": "mmauri@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Juan Carlos Fuster",
+                        "carrec": "",
+                        "correu": "jcfuster@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Agència Tributària": {
+            "id": "tributaria",
+            "Cap": {
+                "nom": "Andrés Cardona",
+                "carrec": "Cap Agència Tributària",
+                "correu": "recaptacio@oliva.es",
+                "empleats": []
+            }
+        },
+        "Alcaldía": {
+            "id": "Alcaldía",
+            "Cap": {
+                "nom": "Fran",
+                "carrec": "Alcaldía",
+                "correu": "alcaldia.oliva@oliva.es",
+                "empleats": []
+            }
+        },
+        "Benestar social i igualtat": {
+            "Benestar social i igualtat": {
+                "nom": "Marifé Aranda",
+                "carrec": "Cap de Servei Benestar Social i Igualtat",
+                "correu": "benestarsocial@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Juan Alfredo Miralles López",
+                        "carrec": "Treballador Social",
+                        "correu": "jamiralles@oliva.es"
+                    },
+                    {
+                        "nom": "Maria Serrano Aguilar",
+                        "carrec": "Treballadora Social",
+                        "correu": "smad@oliva.es"
+                    },
+                    {
+                        "nom": "Carla Soler Chova",
+                        "carrec": "Treballadora Social",
+                        "correu": "carlabs@oliva.es"
+                    },
+                    {
+                        "nom": "Raquel Ciscar Narganes",
+                        "carrec": "Treballadora Social",
+                        "correu": "rciscar@oliva.es"
+                    },
+                    {
+                        "nom": "Ana Soria Morant",
+                        "carrec": "Treballadora Social",
+                        "correu": "anasmorant@oliva.es"
+                    },
+                    {
+                        "nom": "Veronica Barreres Ocón",
+                        "carrec": "Treballadora Social",
+                        "correu": "verobarreres@oliva.es"
+                    },
+                    {
+                        "nom": "Carla Labaig",
+                        "carrec": "Tècnica Integració Social",
+                        "correu": "clabaig@oliva.es"
+                    },
+                    {
+                        "nom": "Lorena Mayans",
+                        "carrec": "Tècnica Integració Social",
+                        "correu": "lmayans@oliva.es"
+                    },
+                    {
+                        "nom": "Lorena Landete",
+                        "carrec": "Tècnica Integració Social",
+                        "correu": "llandete@oliva.es"
+                    },
+                    {
+                        "nom": "Ricard Femenía",
+                        "carrec": "Auxiliar Administratiu",
+                        "correu": "ricardss@oliva.es"
+                    },
+                    {
+                        "nom": "Carmen Quereda",
+                        "carrec": "Aux. SAD",
+                        "correu": "Auxiliar Administratiu"
+                    },
+                    {
+                        "nom": "Amalia Malonda",
+                        "carrec": "Aux. SAD",
+                        "correu": "amalonda@oliva.es"
+                    },
+                    {
+                        "nom": "Pilar Morera",
+                        "carrec": "Aux. SAD",
+                        "correu": "pmorera@oliva.es"
+                    },
+                    {
+                        "nom": "Yolanda Frasquet",
+                        "carrec": "Aux. SAD",
+                        "correu": "yfrasquet@oliva.es"
+                    },
+                    {
+                        "nom": "Teresa Manzanares Jimenez",
+                        "carrec": "Aux. SAD",
+                        "correu": "tmanzanares@oliva.eses"
+                    },
+                    {
+                        "nom": " Mª José Malonda",
+                        "carrec": "Aux. SAD",
+                        "correu": "mjmalonda@oliva.es"
+                    },
+                    {
+                        "nom": "Lydia Ortiz",
+                        "carrec": "Aux. SAD",
+                        "correu": "lortiz@oliva.es"
+                    },
+                    {
+                        "nom": "Amalia Malonda",
+                        "carrec": "Aux. SAD",
+                        "correu": "amalonda@oliva.es"
+                    },
+                    {
+                        "nom": "Mª José Gómez",
+                        "carrec": "Conserje",
+                        "correu": "mjgomez@oliva.es"
+                    },
+                    {
+                        "nom": "lortiz@oliva.es",
+                        "carrec": "Conserje",
+                        "correu": ""
+                    }
+                ]
+            },
+            "Departament Família Infància i Dona": {
+                "nom": "Alicia Morant",
+                "carrec": "Cap de Departament Família Infància i Dona",
+                "correu": "alicia@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Remei Martinez",
+                        "carrec": "Tècnica Mitjana-Educadora",
+                        "correu": "rmartinez@oliva.es"
+                    },
+                    {
+                        "nom": "Francisco Larrosa",
+                        "carrec": "Educador de carrer",
+                        "correu": "bsmonitor@oliva.es"
+                    },
+                    {
+                        "nom": "Victoria Fuster",
+                        "carrec": "Psicòloga",
+                        "correu": "vfuster@oliva.es"
+                    },
+                    {
+                        "nom": "Andrés Serra",
+                        "carrec": "Psicòleg EEIIA",
+                        "correu": "equipia@oliva.es"
+                    },
+                    {
+                        "nom": "Inmaculada Ferrer",
+                        "carrec": "Psicòloga EEIIA",
+                        "correu": "equipia@oliva."
+                    },
+                    {
+                        "nom": "Ana Llorca",
+                        "carrec": "Psicòloga",
+                        "correu": "allorca@oliva.es"
+                    },
+                    {
+                        "nom": "Carmen Girbes",
+                        "carrec": "Agent igualtat",
+                        "correu": "agentigualtat@oliva.es"
+                    },
+                    {
+                        "nom": "Lucia Briones",
+                        "carrec": "Agent igualtat",
+                        "correu": "Lbriones@oliva.es"
+                    },
+                    {
+                        "nom": "Teresa Cañamas",
+                        "carrec": "Tècnica mitjana de Pangea",
+                        "correu": "acanamas@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Biblioteca Tamarit": {
+            "id": "Tamarit",
+            "Cap": {
+                "nom": "María José Canet",
+                "carrec": "",
+                "correu": "mjcanet@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Olga Vicens",
+                        "carrec": "Telefonia",
+                        "correu": "ovicens@oliva.es"
+                    },
+                    {
+                        "nom": "Esther Peiró",
+                        "carrec": "Comunicació",
+                        "correu": "epeiro@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Biblioteca l'envic": {
+            "id": "envic",
+            "Cap": {
+                "nom": "María José Canet",
+                "carrec": "",
+                "correu": "mjcanet@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Lluís Sevilla",
+                        "carrec": "",
+                        "correu": "lsevilla@oliva.es"
+                    },
+                    {
+                        "nom": "Javi Navarro",
+                        "carrec": "",
+                        "correu": "jnavarro@oliva.es"
+                    },
+                    {
+                        "nom": "José Luís López",
+                        "carrec": "",
+                        "correu": "jlopez@oliva.es"
+                    },
+                    {
+                        "nom": "Paqui Miralles",
+                        "carrec": "",
+                        "correu": "fmiralles@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Canera": {
+            "id": "Canera",
+            "Cap": {
+                "nom": "Vicent Lloret Ferrer",
+                "carrec": "",
+                "correu": "vteferrer@oliva.es",
+                "empleats": []
+            }
+        },
+        "Cementeri": {
+            "id": "Cementeri",
+            "Cap": {
+                "nom": "Juan Francisco Escrivá",
+                "carrec": "",
+                "correu": "jfescriva@oliva.es",
+                "empleats": []
+            }
+        },
+        "Igualdad": {
+            "id": "Igualdad",
+            "Cap": {
+                "nom": "Manager1",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": " Lucía",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Carmen",
+                        "carrec": "",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Comerç": {
+            "id": "Comerç",
+            "Cap": {
+                "nom": "Blai Peiró",
+                "carrec": "Cap del departament",
+                "correu": "bpeiro@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Comerç",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Maria",
+                        "carrec": "",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Contractació": {
+            "id": "Contractacio",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Marian Tamarit",
+                        "carrec": "TAG Contractació",
+                        "correu": "mtamarit@oliva.es"
+                    },
+                    {
+                        "nom": "José Sebastián Estela",
+                        "carrec": "TAG Contractació",
+                        "correu": "jsestela@oliva.es"
+                    },
+                    {
+                        "nom": "Sandra Escrivá",
+                        "carrec": "",
+                        "correu": "sescriva@oliva.es"
+                    },
+                    {
+                        "nom": "Rosa de la Peña",
+                        "carrec": "",
+                        "correu": "rpena@oliva.es"
+                    },
+                    {
+                        "nom": "Paula Girau",
+                        "carrec": "",
+                        "correu": "pgirau@oliva.es"
+                    },
+                    {
+                        "nom": "Vicent Ferrer",
+                        "carrec": "",
+                        "correu": "vteferrer@oliva.es"
+                    },
+                    {
+                        "nom": "María José Peiró",
+                        "carrec": "",
+                        "correu": "mpeiro@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Cultura": {
+            "id": "Cultura",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Teatro Olimpia",
+                        "carrec": "",
+                        "correu": "teatreolimpia@oliva.es"
+                    },
+                    {
+                        "nom": "Josep Antoni Santacreu",
+                        "carrec": "Tècnic",
+                        "correu": "jsantacreu@oliva.es"
+                    }
+                ]
+            }
+        },
+        "EDAR": {
+            "id": "EDAR",
+            "Cap": {
+                "nom": "Joan Pere Puig Aparicio",
+                "carrec": "",
+                "correu": "jpere@oliva.es",
+                "empleats": []
+            }
+        },
+        "Educació": {
+            "id": "Educació",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Marian Salabert",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Xelo Parra",
+                        "carrec": "",
+                        "correu": "educacio.xelo@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Esports": {
+            "id": "Esports",
+            "Cap": {
+                "nom": "Guillermo Ponzoda",
+                "carrec": "",
+                "correu": "gponzoda@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Nieves",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Antonia Sendra",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Clara Orquín",
+                        "carrec": "",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Estadística": {
+            "id": "Estadìstica",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Amparo Soriano",
+                        "carrec": "",
+                        "correu": "asoriano@oliva.es"
+                    },
+                    {
+                        "nom": "Maite Escrivá",
+                        "carrec": "",
+                        "correu": "mescriva@oliva.es"
+                    },
+                    {
+                        "nom": "Javier Novoa",
+                        "carrec": "",
+                        "correu": "jnovoa@oliva.es"
+                    },
+                    {
+                        "nom": "Merche Gutierrez",
+                        "carrec": "",
+                        "correu": "mgutierrez@oliva.es"
+                    },
+                    {
+                        "nom": "Veronica Guaita",
+                        "carrec": "",
+                        "correu": "vguaita@oliva.es"
+                    },
+                    {
+                        "nom": "Clamores Díaz",
+                        "carrec": "",
+                        "correu": "clamores@oliva.es"
+                    },
+                    {
+                        "nom": "Salvador Gregori",
+                        "carrec": "",
+                        "correu": "@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Informàtica": {
+            "id": "Informàtica",
+            "Cap": {
+                "nom": "Vicent Fernández i Capilla",
+                "carrec": "Cap del departament d'informàtica",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Guzmán Tortosa Ripoll",
+                        "carrec": "Tècnic informàtic",
+                        "correu": "gtortosa@oliva.es"
+                    },
+                    {
+                        "nom": "David Savall",
+                        "carrec": "Enginyer informàtic",
+                        "correu": "dsavall@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Intervenció": {
+            "id": "Intervenció",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Ana Belén Vidal García",
+                        "carrec": "",
+                        "correu": "abvidal@oliva.es"
+                    },
+                    {
+                        "nom": "Ana Cardona",
+                        "carrec": "",
+                        "correu": "anacardona@oliva.es"
+                    },
+                    {
+                        "nom": "Josefa Llull",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Agustín Picornell",
+                        "carrec": "",
+                        "correu": "apicornell@oliva.es"
+                    },
+                    {
+                        "nom": "Mónica Cardete Roig",
+                        "carrec": "",
+                        "correu": "mcardete@oliva.es"
+                    },
+                    {
+                        "nom": "Inés Estrugo",
+                        "carrec": "",
+                        "correu": "ines@oliva.es"
+                    },
+                    {
+                        "nom": "Marta Milvaques",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Olga Vives Sanchis",
+                        "carrec": "",
+                        "correu": "ovives@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Joventut": {
+            "id": "Joventud",
+            "Cap": {
+                "nom": "Ramón Llopis",
+                "carrec": "",
+                "correu": "rllopis@oliva.es",
+                "empleats": []
+            }
+        },
+        "Jutjat de pau": {
+            "id": "Jutjat",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Amparo",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Mari Carmen Pérez",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Registre Civil",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Vicent Llopis",
+                        "carrec": "",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Museus": {
+            "id": "Museus",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Paco Lleches",
+                        "carrec": "",
+                        "correu": "vllopis@oliva.es"
+                    },
+                    {
+                        "nom": "V. Burguera",
+                        "carrec": "arqueòleg",
+                        "correu": "museus@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Oficina Agrària": {
+            "id": "Agrària",
+            "Cap": {
+                "nom": "Carmen Santonja",
+                "carrec": "Técnica",
+                "correu": "olama01@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Xelo Martínez",
+                        "carrec": "Auxiliar OLAMA",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Omic": {
+            "id": "Omic",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Mª Isabel Ardid",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Verónica Herrera",
+                        "carrec": "",
+                        "correu": "maomic@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Participació ciutadana": {
+            "id": "Participació",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Ana Gilabert",
+                        "carrec": "",
+                        "correu": "agilabert@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Prevenció de Riscos Laborals": {
+            "id": "Riscos",
+            "Cap": {
+                "nom": "Teresa Escrivà",
+                "carrec": "",
+                "correu": "mescriva@oliva.es",
+                "empleats": []
+            }
+        },
+        "Promoció Lingüística": {
+            "id": "Promocio",
+            "Cap": {
+                "nom": "Miquel Lleches",
+                "carrec": "",
+                "correu": "mlleches@oliva.es",
+                "empleats": []
+            }
+        },
+        "RRHH": {
+            "id": "RRHH",
+            "Cap": {
+                "nom": "Maite Boigues",
+                "carrec": "Cap departament RR.HH.",
+                "correu": "maiterh@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Vanesa Faus",
+                        "carrec": "",
+                        "correu": "rrhhvanesafaus@oliva.es"
+                    },
+                    {
+                        "nom": "Joanna Jack",
+                        "carrec": "",
+                        "correu": "joannaj@oliva.es"
+                    },
+                    {
+                        "nom": "Ana Soria Alemany",
+                        "carrec": "",
+                        "correu": "asoria@oliva.es"
+                    },
+                    {
+                        "nom": "Ximo Puchol",
+                        "carrec": "",
+                        "correu": "jpuchol@oliva.es"
+                    },
+                    {
+                        "nom": "Isabel Estrugo Donet",
+                        "carrec": "",
+                        "correu": "isestrugo@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Secretaría": {
+            "id": "Secretaría",
+            "Cap": {
+                "nom": "Sofía Gregori",
+                "carrec": "sgregori@oliva.es",
+                "correu": "Cap departament Secretaría",
+                "empleats": [
+                    {
+                        "nom": "Carolina Añó",
+                        "carrec": "Administrativa",
+                        "correu": "carol@oliva.es"
+                    },
+                    {
+                        "nom": "Jessica Sabater",
+                        "carrec": "Auxiliar administrativa",
+                        "correu": "jsabater@oliva.es"
+                    },
+                    {
+                        "nom": "Toni",
+                        "carrec": "Notificador",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Ramón",
+                        "carrec": "Notificador",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "César A. Narbón",
+                        "carrec": "Secretari",
+                        "correu": "canarbon@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Serveis Públics": {
+            "id": "Publics",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Jacinto Cebrián",
+                        "carrec": "Inspector Serv e Instal",
+                        "correu": "jcebrian@oliva.es"
+                    },
+                    {
+                        "nom": "Miquel Gómis Mascarell",
+                        "carrec": "Ingeniero Tècnic",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Telefonia": {
+            "Telefonia": {
+                "nom": "Carmen Vives",
+                "carrec": "",
+                "correu": "cvives@oliva.es",
+                "empleats": []
+            },
+            "Comunicacio": {
+                "nom": "Esther Fernandez",
+                "carrec": "",
+                "correu": "",
+                "empleats": []
+            }
+        },
+        "Tesoreria": {
+            "id": "Tesoreria",
+            "Cap": {
+                "nom": "manager",
+                "carrec": "",
+                "correu": "",
+                "empleats": [
+                    {
+                        "nom": "Mónica Coscollà",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Nati Vives",
+                        "carrec": "",
+                        "correu": ""
+                    }
+                ]
+            }
+        },
+        "Turisme": {
+            "id": "Turisme",
+            "Cap": {
+                "nom": "Carmen Vives",
+                "carrec": "",
+                "correu": "maomic@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Carmen Moreno",
+                        "carrec": "",
+                        "correu": "mcmoreno@oliva.es"
+                    },
+                    {
+                        "nom": "Adelina Vilaplana",
+                        "carrec": "",
+                        "correu": ""
+                    },
+                    {
+                        "nom": "Adelina Vilaplana",
+                        "carrec": "",
+                        "correu": "avilaplana@oliva.es"
+                    }
+                ]
+            }
+        },
+        "Urbanisme": {
+            "id": "Urbanisme",
+            "Cap": {
+                "nom": "Lucia Andrés",
+                "carrec": "Cap Servei Urbanisme",
+                "correu": "landres@oliva.es",
+                "empleats": [
+                    {
+                        "nom": "Xelo Gosp",
+                        "carrec": "Delineant",
+                        "correu": "xelo.gosp@oliva.es"
+                    },
+                    {
+                        "nom": "Lucia Andrés",
+                        "carrec": "Delineant",
+                        "correu": "landres@oliva.es"
+                    },
+                    {
+                        "nom": "Patricia Atiénzar Navarro",
+                        "carrec": "Tècnica de Gestió",
+                        "correu": "patienzar@oliva.es"
+                    },
+                    {
+                        "nom": "Carles Fermí Jarreño Martí",
+                        "carrec": "Tècnic Medi Ambient",
+                        "correu": "amansanetm@oliva.es"
+                    },
+                    {
+                        "nom": "Francesc Mateu Arcos",
+                        "carrec": "Tècnic Cicle Integral de l'Aigua",
+                        "correu": "amansanetm@oliva.es"
+                    },
+                    {
+                        "nom": "Antonio Pérez",
+                        "carrec": "arquitecte",
+                        "correu": "arquitecte@oliva.es"
+                    },
+                    {
+                        "nom": "Héctor Pedret Llorens",
+                        "carrec": "Topògraf","correu": "hpedret@oliva.es"
+                    },
+                    {
+                        "nom": "Juan Ramón Porta",
+                        "carrec": "Arq. Tècnic",
+                        "correu": "juanramonporta@oliva.es"
+                    },
+                    {
+                        "nom": "Vicent Llopis",
+                        "carrec": "Arq. Tècnic",
+                        "correu": "vllopis@oliva.es"
+                    },
+                    {
+                        "nom": "Rosa Soria",
+                        "carrec": "Inspectora Obres",
+                        "correu": "juanramonporta@oliva.es"
+                    },
+                    {
+                        "nom": "Antonio Mansanet",
+                        "carrec": "",
+                        "correu": "amansanetm@oliva.es"
+                    },
+                    {
+                        "nom": "Silvia Pons",
+                        "carrec": "",
+                        "correu": "spons@oliva.es"
+                    },
+                    {
+                        "nom": "Susana Benimeli",
+                        "carrec": "",
+                        "correu": "sbenimeli@oliva.es"
+                    },
+                    {
+                        "nom": "Mª Carmen Carrero",
+                        "carrec": "",
+                        "correu": "mcarrero@oliva.es"
+                    },
+                    {
+                        "nom": "Rosa Tomás",
+                        "carrec": "",
+                        "correu": "rtomas@oliva.es"
+                    },
+                    {
+                        "nom": "Silvia Cotaina",
+                        "carrec": "",
+                        "correu": "silviacotaina@oliva.es"
+                    },
+                    {
+                        "nom": "Amparo Berbegall Sendra",
+                        "carrec": "",
+                        "correu": "aberbegall@oliva.es"
+                    }
+                ]
+            }
+        }
+    }
+}

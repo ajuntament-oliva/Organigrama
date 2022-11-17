@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Organigrama"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Nueva carpeta"
+	}
+}
