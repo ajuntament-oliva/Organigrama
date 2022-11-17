@@ -38,7 +38,7 @@ ol.index {
   margin-bottom: 1rem;
   list-style: none;
   display: grid;
- grid-template-columns: repeat(7,minmax(225px,1fr));
+ grid-template-columns: repeat(8,minmax(225px,1fr));
  position: absolute;
  z-index: 99;
   align-items: start;
