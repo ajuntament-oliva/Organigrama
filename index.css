@@ -28,6 +28,11 @@ header{
   box-sizing: border-box;
 }
 
+.h-dynamic{
+  min-height: 10%;
+  max-height: 10vh;
+}
+
 .bolder{
   font-weight: bold;
 
@@ -89,6 +94,9 @@ h2{
   text-align: center;
 }
 
+.responsive-container{
+  height: 50%;
+}
 /**  comprobe si el checkbox esta marcat o no per a mostrar un text o un altre */
 input[type=checkbox]~#Mlabel::after {
   content: "Mostrar index";
