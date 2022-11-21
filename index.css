@@ -7,9 +7,37 @@
   --level-4: #f27c8d;
   --blue-link: #0066cc;
   --black: black;
-  --c-pointer: cursor: pointer;
-  --line-size: calc(32*25.1%);
+  --c-pointer: pointer;
+  --line-size: calc(32*26.3%);
 }
+.btn-primary{
+  cursor:var(--c-pointer);
+  margin-bottom: 20px;
+  background-color: #00a1b0;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding-bottom: 1rem;
+  padding: 0.9rem 1.1rem;
+}
+
+
+.contenedor{
+  display: none;
+}
+
+.contenedor-mobil{
+  display: block;
+  margin-bottom: 2rem;
+}
+.btn-primary:hover,
+.show>li:hover{
+  cursor: pointer;
+  color: #e0e0e0;
+}
+
+
+
 header{
   text-align: start;
   /* border-bottom: 1px solid #00a1b0; */
@@ -42,25 +70,6 @@ ol {
   list-style: none;
 }
 
-ol.index {
-  /* margin-left: 2rem; */
-  left: -5%;
-  margin-top: 50%;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  list-style: none;
-  display: grid;
- grid-template-columns: repeat(8,minmax(11.6vw,80vw));
- position: absolute;
- background-color: #e0e0e0;
- gap: 0.5rem;
- z-index: 99;
-  align-items: start;
-  justify-content: center;
-  border: 1px solid black;
-}
 
 ol.index>a {
   text-align: center;
@@ -98,15 +107,15 @@ h2{
   height: 50%;
 }
 /**  comprobe si el checkbox esta marcat o no per a mostrar un text o un altre */
-input[type=checkbox]~#Mlabel::after {
+/* input[type=checkbox]~#Mlabel::after {
   content: "Mostrar index";
   font-weight: bolder;
 
   color: var(--blue-link);
   cursor: pointer;
-}
+} */
 
-input[type=checkbox]:checked~#Mlabel::after {
+/* input[type=checkbox]:checked~#Mlabel::after {
   content: "";
   cursor: pointer;
 }
@@ -116,8 +125,31 @@ input[type=checkbox]:checked~#Mlabel::after {
   font-weight: bolder;
   color: var(--black);
   cursor: pointer;
+} */
+
+.showReponsive{
+  display: none;
+  grid-template-columns: repeat(2,minmax(120px,150px));
+}
+.showResponsive>a{
+  align-self: center;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  min-height: 50px;
+  color: white;
+  background-color: #00a1b0ad;
 }
 
+.show>li>a{
+  color: white;
+
+}
+.show>li:hover,
+.show>li>a:hover{
+  color: #e0e0e0;
+}
 .link-show {
   color: var(--blue-link);
 }
@@ -551,11 +583,21 @@ a[href="mailto:"] {
   }
 } 
 @media screen and (min-width: 900px) and (max-width:1000px) {
+  
   .colEmpleats::after{
     top: 21.5% !important;
   }
 } 
 @media screen and (min-width: 1001px)  and (max-width:1500px) {
+  .contenedor{
+    position: absolute;
+    margin-top: 32vh;
+    z-index: 9;
+    width: 85vw;
+  }
+  .contenedor-mobil{
+    display: none;
+  }
   .colEmpleats::after{
     top: 32.5% !important;
   }
@@ -567,6 +609,10 @@ a[href="mailto:"] {
 }
 @media screen and (min-width: 1501px)  and (max-width:2000px) {
   
+
+  .contenedor-mobil{
+    display: none;
+  }
   .colEmpleats::after{
     top: 32.5% !important;
   }
@@ -576,3 +622,55 @@ a[href="mailto:"] {
   }
 
 } 
+
+.grid-container {
+  margin: 20px 20px;
+  display: grid;
+  column-gap: 5px;
+  row-gap: 10px;
+  grid-template-columns: repeat(2, minmax(50%, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container>a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  min-height: 75px;
+  background-color: #00a1b0;
+}
+.grid-container>a>li{
+  color: white;
+}
+.grid-container>a:hover,
+.grid-container>a>li:hover{
+  color: #e0e0e0;
+}
+@media screen and (min-width: 992px) {
+  .contenedor{
+    position: absolute;
+    margin-top: 35vh;
+    z-index: 9;
+    width: 85vw;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(25%, 1fr));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contenedor{
+    display: block;
+    position: absolute;
+    margin-top: 35vh;
+    z-index: 9;
+    width: 85vw;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(16.67%, 1fr));
+  }
+}
