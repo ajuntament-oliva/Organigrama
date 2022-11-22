@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(50%, 1fr));
+            row-gap: 10px;
+            column-gap: 5px;
+            columns: 5px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-container>a {
+            display: inline-block;
+            min-height: 50px;
+            max-height: 125px;
+            background-color: teal;
+        }
+
+        @media screen and (min-width: 992px) {
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(4, minmax(25%, 1fr));
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(6, minmax(25%, 1fr));
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div><a href="">1</a></div>
+        <div><a href="">2</a></div>
+        <div><a href="">3</a></div>
+        <div><a href="">4</a></div>
+        <div><a href="">1</a></div>
+        <div><a href="">2</a></div>
+        <div><a href="">3</a></div>
+        <div><a href="">4</a></div>
+        <div><a href="">1</a></div>
+        <div><a href="">2</a></div>
+        <div><a href="">3</a></div>
+        <div><a href="">4</a></div>
+    </div>
+</body>
+
+</html>
