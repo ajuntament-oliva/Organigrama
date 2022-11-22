@@ -472,6 +472,9 @@ a[href="mailto:"] {
 /* MQ STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width:300px) and (max-width: 1000px) {
+  .benestar{
+    min-height: 450vh;
+  }
   .rectangle {
     padding: 20px 10px;
   }
@@ -575,13 +578,6 @@ a[href="mailto:"] {
   .contenedor-mobil{
     display: none;
   }
-  /* .colEmpleats::after{
-    top: 32.5% !important;
-  }
-  .horizontal::after {
-    top: 126%;
-    left:calc(47% - -5px);
-  } */
 
 }
 
