@@ -24,6 +24,7 @@
 
 .contenedor{
   display: none;
+  width: 95vw;
 }
 
 .contenedor-mobil{
@@ -564,64 +565,27 @@ a[href="mailto:"] {
   
 }
 
-@media screen and (min-width:300px) and (max-width:400px) {
-  .colEmpleats::after{
-    top: 24%;
-  }
-  .level-4-wrapper-alt::before {
-    top: 25%;
-  }
-}
-@media screen and (min-width: 900px) and (max-width:1050px) {
-  .colEmpleats::after{
-    top: 32.5%;
-  }
-} 
-@media screen and (min-width: 650px) and (max-width:800px) {
-  .horizontal::after{
-    width: calc(76%+89px) !important;
-  }
-} 
-@media screen and (min-width: 900px) and (max-width:1000px) {
-  
-  .colEmpleats::after{
-    top: 21.5% !important;
-  }
-} 
+
 @media screen and (min-width: 1001px)  and (max-width:1500px) {
   .contenedor{
     position: absolute;
     margin-top: 32vh;
     z-index: 9;
-    width: 85vw;
+    
   }
   .contenedor-mobil{
     display: none;
   }
-  .colEmpleats::after{
+  /* .colEmpleats::after{
     top: 32.5% !important;
   }
   .horizontal::after {
     top: 126%;
     left:calc(47% - -5px);
-  }
+  } */
 
 }
-@media screen and (min-width: 1501px)  and (max-width:2000px) {
-  
 
-  .contenedor-mobil{
-    display: none;
-  }
-  .colEmpleats::after{
-    top: 32.5% !important;
-  }
-  .horizontal::after {
-    top: 126%;
-    left:calc(47% - -5px);
-  }
-
-} 
 
 .grid-container {
   margin: 20px 20px;
@@ -664,11 +628,13 @@ a[href="mailto:"] {
 
 }
 @media screen and (min-width: 720px) {
+  .contenedor-mobil{
+    display: none;
+  }
   .contenedor{
     position: absolute;
     margin-top: 35vh;
     z-index: 9;
-    width: 85vw;
   }
   .grid-container {
       display: grid;
@@ -682,7 +648,6 @@ a[href="mailto:"] {
     position: absolute;
     margin-top: 35vh;
     z-index: 9;
-    width: 85vw;
   }
   .grid-container {
       display: grid;
