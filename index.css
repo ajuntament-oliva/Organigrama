@@ -81,10 +81,7 @@ ol.index>a {
 /* h1::before{
   content: "Hola";
 } */
-.d-none {
-  display: none;
-  cursor: pointer;
-}
+
 
 .d-flex{
   display: flex;
@@ -475,9 +472,6 @@ a[href="mailto:"] {
 /* MQ STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width:300px) and (max-width: 1000px) {
-  .benestar{
-    min-height: 450vh;
-  }
   .rectangle {
     padding: 20px 10px;
   }
@@ -658,4 +652,7 @@ a[href="mailto:"] {
       display: grid;
       grid-template-columns: repeat(6, minmax(16.67%, 1fr));
   }
+}
+.d-none {
+  display: none;
 }

@@ -10,7 +10,6 @@ button.addEventListener("click", () => {
 	}
 })
 const principal = document.querySelector(".principal");
-console.log("leido");
 button.classList.add("button-Scroll");
 button.title = "Tornar al principi";
 button.style.position = 'fixed';
@@ -19,7 +18,6 @@ button.style.bottom = "10px";
 principal.appendChild(button);
 
 window.addEventListener('scroll', (e) => {
-	console.log(x.matches);
 	if(x.matches===true){
 
 		if (window.scrollX > 1280) {
