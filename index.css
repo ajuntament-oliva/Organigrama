@@ -314,9 +314,11 @@ a[href="mailto:"] {
 /* LEVEL-3 STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .col-2 {
-  grid-template-columns: repeat(2, 1fr);
-  ;
+  grid-template-columns: repeat(2, minmax(50%,1fr));
+
 }
+
+
 
 .level-3-wrapper {
   position: relative;
@@ -473,6 +475,9 @@ a[href="mailto:"] {
 /* MQ STYLES
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width:300px) and (max-width: 1000px) {
+  .benestar{
+    min-height: 450vh;
+  }
   .rectangle {
     padding: 20px 10px;
   }
