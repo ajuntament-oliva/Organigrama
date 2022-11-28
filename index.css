@@ -405,7 +405,7 @@ a[href="mailto:"] {
   margin-left: auto;
 }
 
-.level-4>b,
+.level-4>a>b,
 .level-4>i {
   font-size: 0.8rem;
   display: block;
