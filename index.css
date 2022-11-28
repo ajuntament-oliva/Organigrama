@@ -58,8 +58,8 @@ header{
 }
 
 .h-dynamic{
-  min-height: 10%;
-  max-height: 10vh;
+  min-height: 4.5%;
+  max-height: fit-content;
 }
 
 .bolder{
@@ -473,7 +473,7 @@ a[href="mailto:"] {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width:300px) and (max-width: 1000px) {
   .benestar{
-    min-height: 450vh;
+    min-height: 250vh;
   }
   .rectangle {
     padding: 20px 10px;
@@ -608,6 +608,10 @@ a[href="mailto:"] {
 
 }
 @media screen and (min-width: 720px) and (max-width: 1001px) {
+  .h-dynamic{
+    min-height: 10%;
+  max-height: 5vh;
+  }
   .contenedor-mobil{
     display: block;
   }
@@ -616,8 +620,16 @@ a[href="mailto:"] {
       display: grid;
       grid-template-columns: repeat(4, minmax(25%, 1fr));
   }
+  .h-dynamic{
+    min-height: 10%;
+  max-height: 5vh;
+  }
 }
 @media screen and (min-width: 1002px) and (max-width:1199){
+  .h-dynamic{
+    min-height: 10%;
+  max-height: 5vh;
+  }
   .contenedor-mobil{
     display: none;
   }
@@ -626,9 +638,14 @@ a[href="mailto:"] {
     margin-top: 35vh;
     z-index: 9;
   }
+   
 }
 
 @media screen and (min-width: 1200px) {
+  .h-dynamic{
+    min-height: 10%;
+  max-height: 10vh;
+  }
   .contenedor-mobil{
     display: none;
   }
