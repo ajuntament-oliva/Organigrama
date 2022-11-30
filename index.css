@@ -592,7 +592,7 @@ a[href="mailto:"] {
   }
 
   .grid-container {
-    display: grid;
+    
     grid-template-columns: repeat(4, minmax(25%, 1fr));
   }
 }
@@ -610,7 +610,7 @@ a[href="mailto:"] {
     z-index: 9;
   }
   .grid-container {
-    display: grid;
+    
     grid-template-columns: repeat(5, minmax(20%, 1fr));
   }
 }
@@ -630,7 +630,7 @@ a[href="mailto:"] {
     z-index: 9;
   }
   .grid-container {
-    display: grid;
+    
     grid-template-columns: repeat(6, minmax(16.67%, 1fr));
   }
 }
