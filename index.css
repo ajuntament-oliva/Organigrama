@@ -77,7 +77,7 @@ ol.index > a {
   content: "Hola";
 } */
 
-.d-flex {
+.display-flex {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -320,7 +320,7 @@ a[href="mailto:"] {
 .level-4 > b,
 .level-4 > i,
 .level-4 > a {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   display: block;
 }
 
@@ -589,6 +589,12 @@ a[href="mailto:"] {
   background-color: #00a1b0a9;
 }
 @media screen and (min-width: 720px) and (max-width: 1001px) {
+  .level-4 > b,
+  .level-4 > i,
+  .level-4 > a {
+    font-size: 0.75rem;
+    display: block;
+  }
   .h-dynamic {
     min-height: 10%;
     max-height: fit-content;
@@ -598,7 +604,6 @@ a[href="mailto:"] {
   }
 
   .grid-container {
-    
     grid-template-columns: repeat(4, minmax(25%, 1fr));
   }
 }
@@ -616,7 +621,6 @@ a[href="mailto:"] {
     z-index: 9;
   }
   .grid-container {
-    
     grid-template-columns: repeat(5, minmax(20%, 1fr));
   }
 }
@@ -636,7 +640,6 @@ a[href="mailto:"] {
     z-index: 9;
   }
   .grid-container {
-    
     grid-template-columns: repeat(6, minmax(16.67%, 1fr));
   }
 }
