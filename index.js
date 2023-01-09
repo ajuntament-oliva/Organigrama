@@ -21,7 +21,7 @@ function mostrarLlistaEscritori(){
     if(mostrar.textContent==="Mostrar index"){
         mostrar.textContent="No mostrar index";
     }else{
-        mostrar.textContent="Mostrar index";
+        mostrar.textContent="Mostrar index.";
 
     }
 }
