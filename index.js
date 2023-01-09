@@ -8,7 +8,7 @@ function mostrarLlista(){
     if(mostrarR.textContent==="Mostrar index"){
         mostrarR.textContent="No mostrar index";
     }else{
-        mostrarR.textContent="Mostrar index";
+        mostrarR.textContent="Mostrar index.";
 
     }
 }
