@@ -8,7 +8,7 @@ function mostrarLlista(){
     if(mostrarR.textContent==="Mostrar index"){
         mostrarR.textContent="No mostrar index";
     }else{
-        mostrarR.textContent="Mostrar index";
+        mostrarR.textContent="Mostrar index.";
 
     }
 }
@@ -21,7 +21,7 @@ function mostrarLlistaEscritori(){
     if(mostrar.textContent==="Mostrar index"){
         mostrar.textContent="No mostrar index";
     }else{
-        mostrar.textContent="Mostrar index";
+        mostrar.textContent="Mostrar index.";
 
     }
 }
